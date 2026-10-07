@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+
+<head>
+<title>reShop</title>
+<link rel="icon" href="https://unitendo.jumpingcrab.com/reShop/reshopicon.png" type="image/png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<meta property="og:title" content="reShop">
+<meta property="og:description" content="reShop is a remake of the eShop for Nintendo 3DS and 2DS Systems!">
+<meta property="og:image" content="https://unitendo.jumpingcrab.com/reShop/reshopicon.png">
+<meta property="og:url" content="https://unitendo.jumpingcrab.com/reShop">
+
+
+</head>
+<body>
+<div class="topbar">
+  <h1>reShop</h1>
+  <a href="../">Unitendo</a>
+  <a href="">Home</a>
+  <a href="./progress">Current Progress</a>
+  <a href="./news">News</a>
+  <a href="./discord">Discord</a>
+  <a href="https://github.com/Unitendo/reShop">Github Repo</a>
+</div>
+<div class="content">
+  <h1 class="center">What is reShop?</h1>
+  <p class="center">reShop is an app for the Nintendo 3DS / 2DS line of systems that aims to replicate that of the Nintendo eShop which has since been shutdown.</p>
+
+
+
+  <h1 class="center">Made for the community, by the community</h1>
+  <p class="center">A small team of two or three is what is behind reShop, we strive to make reShop as good as we can while also preserving licenses!</p>
+
+
+  <h1 class="center">Where can I get reShop?</h1>
+  <p class="center">Apply for tester in our <a href="discord">Discord!</a></p>
+
+
+
+
+  <h1 class="center">Meet the team!</h1>
+  <div class="card">
+  <img src="virtualle.png" alt="virtualel">
+  <div class="text-content">
+    <h1>Virtualle</h1>
+    <p>Lead Developer, master-class in C, previously bad experiences with server code, coded this page and the app!</p>
+  </div>
+</div>
+
+  <div class="card">
+  <img src="https://cdn.discordapp.com/emojis/1437619630930919474.webp?size=128" alt="hackertronius">
+  <div class="text-content">
+    <h1>Hackertron</h1>
+    <p>Main server developer. Maintains the server you're viewing this page on and the server you download games from, knows a bit of C. Often known by his default discord profile picture.</p>
+  </div>
+</div>
+
+
+  <div class="card">
+  <img src="hubert.webp" alt="hu">
+  <div class="text-content">
+    <h1>Hugh</h1>
+    <p>The one and only, Hugh the Artist! Does all (excluding prototype) art for reShop!</p>
+  </div>
+</div>
+
+
+  <h1 class="right">Our promise of security</h1>
+  <p class="right">At Unitendo, we promise to make our projects as secure as possible, stopping doxxings, RCE, and other dangers to people and their devices.</p>
+
+</div>
+
+</body>
+
+
+
+
+
+
+
+
+
+<style>
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin: 40px;
+}
+
+
+.center {
+  text-align: center;
+}
+
+
+.right {
+  text-align: right;
+}
+
+
+
+.topbar {
+  width: 100%;
+  height: 60px;
+  background: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border-top: 1px solid transparent;
+  overflow: hidden;
+  gap: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.topbar a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.content {
+  margin-top: 50px;
+  padding: 16px;
+}
+
+.topbar h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 0,
+  line-height: 60px; /* Match navbar height */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 1;
+  margin: 0;
+  white-space: nowrap;
+}
+
+
+
+@media (max-width: 700px) {
+  .topbar {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .topbar a {
+    margin: 10px 0;
+  }
+}
+
+body {
+  background-image: url("bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  margin: 60px;
+}
+
+.card img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-content {
+  flex: 1;
+}
+
+.card {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 30px;
+}
+
+.card {
+  margin: 10px auto;
+  max-width: 600px;
+}
+
+</style>
